@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(4, 238, 218);
+}
+.container {
+  width: 400px;
+  height: 470px;
+  margin: 30px auto 0;
+  padding-top: 50px;
+  background: #f21d1d;
+  border-radius: 5px;
+  border: 1px solid #c5c4c4;
+  color: #fff;
+}
+.container > div {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+}
+.container .title {
+  display: block;
+  font-size: 20px;
+  font-family: sans-serif;
+  height: 30px;
+  padding-bottom: 80px;
+}
+.container > div input[type="password"],
+input[type="text"] {
+  width: 65%;
+  height: 45px;
+  background: #7ccdff;
+  margin: 10px auto 0;
+  padding: 5px 40px 5px 10px;
+  display: block;
+  font-size: 22px;
+  font-family: sans-serif;
+  border: 1px solid #2fb57d;
+  outline: nfirst;
+  border-radius: 3px;
+  color: #fff;
+}
+.container > div .group1 {
+  display: block;
+  height: 40px;
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 10px;
+  font: 17px sans-serif, bold;
+  position: relative;
+}
+.container > div .group1 .label {
+  position: absolute;
+  bottom: 11px;
+  left: 88px;
+}
+.container > div .group1 input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.container > div .group2 {
+  display: block;
+  height: 40px;
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 10px;
+  font: 22px sans-serif;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.container > div .group2 > i {
+  position: absolute;
+  right: 80px;
+  bottom: 51px;
+  cursor: pointer;
+}
+.container > div .group3 {
+  display: block;
+  height: 40px;
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 10px;
+  font: 20px sans-serif, bold;
+  position: relative;
+}
+.container > div .group3 .btn {
+  position: absolute;
+  right: 75px;
+  bottom: 50px;
+  width: 40px;
+  height: 25px;
+  background: #1da1f2;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  font: 12px arial, bold;
+  color: #fff;
+  cursor: pointer;
+  outline: nfirst;
+}
+.container > div .group3 .btn:hover {
+  background: #fff;
+  color: #333;
+}
+@media (max-width: 765px) {
+  .container {
+    width: 95%;
+  }
+}
